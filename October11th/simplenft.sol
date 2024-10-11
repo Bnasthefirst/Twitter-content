@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract SimpleNFT is ERC721, Ownable {
     uint256 public tokenCounter;
 
-    constructor() ERC721("SimpleNFT", "SNFT") {
+    constructor() ERC721("BnasNft", "BNFT") {
         tokenCounter = 0;
     }
 
