@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .header{
+            display: flex;
+            flex-direction: row ;
+
+        }
+
+        .right-section{
+            background-color: orange;
+            width: 200px;
+       
+
+        }
+        .middle-section{
+            background-color: pink;
+            flex:1;
+            max-width: 300px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        .left-section{
+            background-color: red;
+            width: 200px;
+
+        }
+        .search-bar{
+            width:200px;
+            font-weight: bold;
+        }
+
+        .search{
+            width: 300px;
+            border-radius: 200px;
+            border-style:inherit ;
+            border-color: none;
+        }
+        .top{
+            display:flex;
+            flex-direction: row;
+            background-color: purple;
+            
+
+        }
+        .searching{
+            margin-left: 20px;
+            margin-right: 20px;
+            flex:1;
+            
+        }
+        .but{
+            background-color: purple;
+            color:white;
+            border-style: solid;
+        }
+        .home{
+            width:50px;
+        }
+        .download{
+            width: 200px;
+        }
+       
+        
+    </style>
+
+</head>
+<body>
+    <div class =" header">
+        <div class =" right-section">
+            right
+    
+        </div>
+        <div class =" middle-section">
+            middle
+            <input class="search-bar" type="text" placeholder="press me ">
+    
+        </div>
+
+        <div class =" left-section">
+           left
+    
+        </div>
+       
+
+    </div>
+
+    <br>
+    <div class =" top">
+        <div class =" home">
+
+           <p>
+            Home
+           </p> 
+    
+        </div>
+        <div class =" searching">
+            <p>
+                <input class="search" type="text" placeholder="search ">
+            </p>
+           
+    
+        </div>
+
+        <div class =" download">
+            <p>
+                <button class ="but"> Download</button>
+            </p>
+          
+    
+        </div>
+       
+
+    </div>
+
+</body>
+</html>
