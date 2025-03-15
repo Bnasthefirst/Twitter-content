@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           
+            .icon{
+                width : 50px;
+                height: 50px;
+                border-radius: 200px;
+               
+                margin-top: 2px;
+                
+               
+            }
+            .thumbnail{
+                width: 350px;
+                height: 300px;
+                object-fit: cover;
+                object-position: top;
+                
+            }
+            
+         
+         .grid{
+            display: grid;
+            grid-template-columns: 60px 1fr;
+
+         }
+         .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 10px;
+            row-gap: 10px;
+            
+         }
+         .verti{
+           
+            border-color: black;
+         }
+            
+        </style>
+
+    </head>
+    
+    <body>
+        <div class ="verti">
+            <div>
+                <img class = "thumbnail" src = "shallipopi.jpg">
+            </div>
+         <div class="grid">
+           <div class = "img">
+                <img class = "icon" src = "IMG_0555.JPG">
+            </div>
+            <div class ="hori">
+                
+                <p class =" video_title">
+                   <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                </p>
+                <p class ="video_author">
+                    afrobeat reviewer
+                </p>
+                <p class ="video-stats"> 
+                    3.4M views &#183; 6 months ago 
+                </p>
+            </div>
+         </div>
+        
+
+        </div>
+
+        <br>
+
+        <div class ="video-grid">
+
+            <div class ="verti">
+                <div>
+                    <img class = "thumbnail" src = "shallipopi.jpg">
+                </div>
+             <div class="grid">
+               <div class = "img">
+                    <img class = "icon" src = "IMG_0555.JPG">
+                </div>
+                <div class ="hori">
+                    
+                    <p class =" video_title">
+                       <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                    </p>
+                    <p class ="video_author">
+                        afrobeat reviewer
+                    </p>
+                    <p class ="video-stats"> 
+                        3.4M views &#183; 6 months ago 
+                    </p>
+                </div>
+             </div>
+            
+    
+            </div>
+
+            <div class ="verti">
+                <div>
+                    <img class = "thumbnail" src = "shallipopi.jpg">
+                </div>
+             <div class="grid">
+               <div class = "img">
+                    <img class = "icon" src = "IMG_0555.JPG">
+                </div>
+                <div class ="hori">
+                    
+                    <p class =" video_title">
+                       <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                    </p>
+                    <p class ="video_author">
+                        afrobeat reviewer
+                    </p>
+                    <p class ="video-stats"> 
+                        3.4M views &#183; 6 months ago 
+                    </p>
+                </div>
+             </div>
+            
+    
+            </div>
+
+            <div class ="verti">
+                <div>
+                    <img class = "thumbnail" src = "shallipopi.jpg">
+                </div>
+             <div class="grid">
+               <div class = "img">
+                    <img class = "icon" src = "IMG_0555.JPG">
+                </div>
+                <div class ="hori">
+                    
+                    <p class =" video_title">
+                       <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                    </p>
+                    <p class ="video_author">
+                        afrobeat reviewer
+                    </p>
+                    <p class ="video-stats"> 
+                        3.4M views &#183; 6 months ago 
+                    </p>
+                </div>
+             </div>
+            
+    
+            </div>
+
+            <div class ="verti">
+                <div>
+                    <img class = "thumbnail" src = "shallipopi.jpg">
+                </div>
+             <div class="grid">
+               <div class = "img">
+                    <img class = "icon" src = "IMG_0555.JPG">
+                </div>
+                <div class ="hori">
+                    
+                    <p class =" video_title">
+                       <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                    </p>
+                    <p class ="video_author">
+                        afrobeat reviewer
+                    </p>
+                    <p class ="video-stats"> 
+                        3.4M views &#183; 6 months ago 
+                    </p>
+                </div>
+             </div>
+            
+    
+            </div>
+
+
+            <div class ="verti">
+                <div>
+                    <img class = "thumbnail" src = "shallipopi.jpg">
+                </div>
+             <div class="grid">
+               <div class = "img">
+                    <img class = "icon" src = "IMG_0555.JPG">
+                </div>
+                <div class ="hori">
+                    
+                    <p class =" video_title">
+                       <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                    </p>
+                    <p class ="video_author">
+                        afrobeat reviewer
+                    </p>
+                    <p class ="video-stats"> 
+                        3.4M views &#183; 6 months ago 
+                    </p>
+                </div>
+             </div>
+            
+    
+            </div>
+
+
+            <div class ="verti">
+                <div>
+                    <img class = "thumbnail" src = "shallipopi.jpg">
+                </div>
+             <div class="grid">
+               <div class = "img">
+                    <img class = "icon" src = "IMG_0555.JPG">
+                </div>
+                <div class ="hori">
+                    
+                    <p class =" video_title">
+                       <strong> HOW SHALLIPOPI SOLD HIS SOUL </strong> 
+                    </p>
+                    <p class ="video_author">
+                        afrobeat reviewer
+                    </p>
+                    <p class ="video-stats"> 
+                        3.4M views &#183; 6 months ago 
+                    </p>
+                </div>
+             </div>
+            
+    
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+    
+             
+
+
+
+
+    
+    </body>
+
+
+
+</html>
