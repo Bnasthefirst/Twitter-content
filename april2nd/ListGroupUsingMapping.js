@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+
 function ListGroup() {
 
     const items = [
@@ -14,7 +14,7 @@ function ListGroup() {
     return (
         <>
         
-        <Fragment>
+        
                     <div>
             <h1> this is a list group </h1>
 
@@ -26,7 +26,7 @@ function ListGroup() {
         </div>
 
 
-        </Fragment>
+        
         
         
         </>
