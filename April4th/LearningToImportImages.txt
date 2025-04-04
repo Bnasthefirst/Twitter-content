@@ -1,0 +1,32 @@
+how to import images when our files are in the src folder 
+
+you have to use the <img> tag like this <img > </img>
+
+which is unlike html where you only use <img> without closing it 
+
+so first you create a folder called images in that folder you put all the images you need 
+
+then you importa that image folder using 
+
+import image1 from "./images.stone.png"
+
+now we have named stone.png, image1 so that react can understand that image1 is an image of  a stone we are importing from the images folder where it is saved 
+
+now to print it on the webpage 
+
+we use <image src={image1} alt" a stone "> </image>
+
+we use the image1 to point at the stone.png image and the we have to provide an alt which defines what the image is , as seen it is a stone 
+
+and thats how we import images in react when the image folder is saved in the src folder , 
+
+
+
+we can only return one tag at a time in a time so we use div tags or fragemnets by importing fragments fro react like this 
+
+import {fragment} from "react" ;
+
+you can also use empty tags without having to import fragment < >  </>
+
+
+and note that in react we do not have for loops so we cant use it in here 
